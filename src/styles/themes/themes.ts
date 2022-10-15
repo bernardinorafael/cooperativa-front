@@ -1,4 +1,4 @@
-export const lightTheme = {
+export const defaultTheme = {
    background: "#E5E5E5",
 
    black: "#000000",

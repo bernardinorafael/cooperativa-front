@@ -9,7 +9,8 @@
             "singleQuote": false,
             "trailingComma": "all",
             "arrowParens": "always",
-            "semi": false
+            "semi": false,
+            "endOfLine": "auto"
          }
       ]
    }

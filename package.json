@@ -1,13 +1,14 @@
 {
-   "name": "cooperativa",
+   "name": "cooperativa-front",
    "private": true,
    "version": "0.0.0",
    "type": "module",
    "scripts": {
       "dev": "vite",
       "build": "tsc && vite build",
-      "preview": "vite preview",
-      "lint": "eslint src/**/*.ts* --fix"
+      "server": "json-server -w server.json -p 4000 -d 800",
+      "lint": "eslint src/**/*.ts* --fix",
+      "preview": "vite preview"
    },
    "dependencies": {
       "axios": "^1.1.2",
@@ -26,6 +27,7 @@
       "@types/styled-components": "^5.1.26",
       "@vitejs/plugin-react": "^2.1.0",
       "eslint": "^8.25.0",
+      "json-server": "^0.17.0",
       "typescript": "^4.6.4",
       "vite": "^3.1.0"
    },

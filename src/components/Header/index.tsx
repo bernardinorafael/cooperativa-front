@@ -8,12 +8,14 @@ export function Header() {
             <NavLink end to="/">
                Início
             </NavLink>
+
             <div>
                <NavLink to="/mission">Missão</NavLink>
                <NavLink to="/about">Sobre</NavLink>
                <NavLink to="/donor">Doadores</NavLink>
                <NavLink to="/sales">Vendas</NavLink>
             </div>
+
             <div>
                <a href="#">Entrar</a>
                <a href="#">Sair</a>

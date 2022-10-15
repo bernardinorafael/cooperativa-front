@@ -4,11 +4,11 @@ import { Header } from "./components/Header"
 import { GlobalProvider } from "./context/useGlobalContext"
 import { RoutersPage } from "./routers"
 import { GlobalStyles } from "./styles/global-styles"
-import { lightTheme } from "./styles/themes/themes"
+import { defaultTheme } from "./styles/themes/themes"
 
 export function App() {
    return (
-      <ThemeProvider theme={lightTheme}>
+      <ThemeProvider theme={defaultTheme}>
          <GlobalStyles />
 
          <Router>
